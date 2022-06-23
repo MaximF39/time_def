@@ -1,7 +1,10 @@
 def time_def_(func):
     """
     example:
-    @time_def_
+    from time_def import time_def
+    import time
+
+    @time_def
     def time_sleep(r, r2):
         time.sleep(1)
         return r, r2
